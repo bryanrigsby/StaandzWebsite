@@ -5,16 +5,16 @@ import Image from 'react-bootstrap/Image';
 
 function App() {
   return (
-      <Container fluid className={'pt-3 body'} >
+      <Container fluid className={'pt-5 body'} >
       <Row>
-      <Col className={'text-center d-block d-lg-none pt-4'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue'}}>
+      <Col className={'text-center d-block d-lg-none pt-4'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           STAANDZ is coming...
         </Col>
-        <Col className={'text-center d-none d-lg-block'} style={{fontWeight: 'bold', fontSize: '3em', color: 'aliceblue'}}>
+        <Col className={'text-center d-none d-lg-block pt-4 pb-4'} style={{fontWeight: 'bold', fontSize: '3em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           STAANDZ is coming...
         </Col>
       </Row>
-      <Row className={'mt-5'} style={{height: '35em', textAlign: 'center'}}>
+      <Row className={'pt-5 pb-4'} style={{height: '35em', textAlign: 'center'}}>
         <Col sm={12} lg={4} className={'d-block d-lg-block pt-3'}>
           <Image style={{border: '3px solid aliceblue'}} src="images/1.PNG" rounded />
         </Col>
@@ -28,7 +28,10 @@ function App() {
         </Col>
       </Row>
       <Row>
-      <Col className={'text-center d-block d-lg-none'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue'}}>
+        <Col className={'text-center d-block d-lg-none pt-4'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
+          Sign up for updates!
+        </Col>
+        <Col className={'text-center d-none d-lg-block pt-5'} style={{fontWeight: 'bold', fontSize: '3em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           Sign up for updates!
         </Col>
       </Row>
