@@ -4,6 +4,8 @@ import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image';
 
 function App() {
+
+  
   return (
       <Container fluid className={'pt-3 body'} >
       <Row>
