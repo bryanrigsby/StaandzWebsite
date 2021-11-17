@@ -18,7 +18,7 @@ function App() {
         <Col className={'text-center d-none d-lg-block pb-4'} style={{fontWeight: 'bold', fontSize: '3em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           STAANDZ is here!!!
         </Col>
-      </Row>
+      </Row> 
       <Row className={'pt-5 pb-4'} style={{height: '35em', textAlign: 'center'}}>
 
         <Col sm={12} lg={4} className={'d-none d-lg-block'}>
