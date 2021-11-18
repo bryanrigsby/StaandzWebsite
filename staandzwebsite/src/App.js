@@ -37,7 +37,7 @@ function App() {
 
           <a href='https://play.google.com/store/apps/details?id=com.staandz' className={'mb-5 btn'} style={{height: '40%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '2em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz for Android <br /><FcAndroidOs size={100} /></a>
 
-          <a href='#' className={'mt-5 btn'} style={{height: '40%', width: '80%', backgroundColor: 'grey', fontWeight: 'bold', border: 'none', fontSize: '2em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>iOS coming soon! <br /><AiOutlineApple size={100} /></a>
+          <a href='https://www.staandz.com/' className={'mt-5 btn'} style={{height: '40%', width: '80%', backgroundColor: 'grey', fontWeight: 'bold', border: 'none', fontSize: '2em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>iOS coming soon! <br /><AiOutlineApple size={100} /></a>
 
 
         </Col>
