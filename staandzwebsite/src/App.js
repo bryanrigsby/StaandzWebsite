@@ -15,6 +15,12 @@ function App() {
 
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
+    console.log(window.width)
+
+    if(window.innerWidth > 700){
+      window.location = "https://www.hangar2apps.com/"
+    }
+
     // Windows Phone must come first because its UA also contains "Android"
     if (/windows phone/i.test(userAgent)) {
         return "Windows Phone";
