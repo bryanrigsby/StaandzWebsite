@@ -16,9 +16,9 @@ function App() {
 
     console.log(window.width)
 
-    if(window.innerWidth > 700){
-      window.location = "https://www.hangar2apps.com/"
-    }
+    // if(window.innerWidth > 700){
+    //   window.location = "https://www.hangar2apps.com/"
+    // }
 
     // Windows Phone must come first because its UA also contains "Android"
     if (/windows phone/i.test(userAgent)) {
