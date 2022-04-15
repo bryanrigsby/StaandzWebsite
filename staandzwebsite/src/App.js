@@ -92,7 +92,7 @@ function App() {
       </Row>
 
       <Row className={'m-4'} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
-        <Col sm={12} lg={4}>
+        <Col sm={12}>
         {device === 'Android' ? 
           <a href='https://play.google.com/store/apps/details?id=com.staandzowner' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.35em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get StaandzOwner<br /><FcAndroidOs size={100} /></a>
           :
