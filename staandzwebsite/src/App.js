@@ -48,19 +48,19 @@ function App() {
   return (
       <Container className={'pb-5'} fluid style={device === 'Android' ? {backgroundColor: 'darkgreen'} : {backgroundColor: '#89CFF0'}}>
       <Row>
-        <Col className={'text-center d-block d-lg-none mt-3'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
+        <Col className={'text-center mt-3'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           STAANDZ is here!!
         </Col>
       </Row>
 
       <Row className={'mt-5'}>
-        <Col className={'text-center d-block d-lg-none'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
+        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           Do you love fruit stands?
         </Col>
       </Row>
 
       <Row className={'m-4'} >
-        <Col sm={12} className={'d-block d-lg-none'} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
+        <Col sm={12} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
         {device === 'Android' ? 
           <a href='https://play.google.com/store/apps/details?id=com.staandz' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><FcAndroidOs size={100} /></a>
           :
@@ -70,13 +70,13 @@ function App() {
       </Row>
 
       <Row>
-        <Col className={'text-center d-block d-lg-none'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
+        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           Do you love food trucks?
         </Col>
       </Row>
 
       <Row className={'m-4'}>
-        <Col sm={12} className={'d-block d-lg-none'} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
+        <Col sm={12} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
         {device === 'Android' ? 
           <a href='https://play.google.com/store/apps/details?id=com.staandz' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><FcAndroidOs size={100} /></a>
           :
@@ -86,13 +86,13 @@ function App() {
       </Row>
 
       <Row>
-        <Col className={'text-center d-block d-lg-none'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
+        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           Own a stand?
         </Col>
       </Row>
 
       <Row className={'m-4'} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
-        <Col sm={12} lg={4} className={'d-block d-lg-none'}>
+        <Col sm={12} lg={4}>
         {device === 'Android' ? 
           <a href='https://play.google.com/store/apps/details?id=com.staandzowner' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.35em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get StaandzOwner<br /><FcAndroidOs size={100} /></a>
           :
