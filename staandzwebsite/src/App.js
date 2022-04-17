@@ -46,7 +46,7 @@ function App() {
   console.log('device', device)
   
   return (
-      <Container className={'pb-5'} fluid style={device === 'Android' ? {backgroundColor: 'darkgreen'} : {backgroundColor: '#89CFF0'}}>
+      <Container className={'pb-5'} fluid style={{backgroundColor: '#89CFF0'}}>
       <Row>
         <Col className={'text-center mt-3'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           STAANDZ is here!!
@@ -60,28 +60,28 @@ function App() {
       </Row>
 
       <Row className={'m-4'} >
-        <Col sm={12} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
-        {device === 'Android' ? 
+        <Col sm={12} md={5} style={{backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15, borderColor: 'white', borderWidth: '2px', borderStyle: 'solid'}}>
           <a href='https://play.google.com/store/apps/details?id=com.staandz' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><FcAndroidOs size={100} /></a>
-          :
-          <a href='https://apps.apple.com/us/app/staandz/id1595469039' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><AiOutlineApple size={100} /></a>
-          }
+        </Col>
+        <Col sm={0} md={2}></Col>
+        <Col sm={12} md={5} className={'mt-4 mt-md-0'} style={{textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
+          <a href='https://apps.apple.com/us/app/staandz/id1595469039' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', paddingBottom: '15px', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><AiOutlineApple size={100} /></a>
         </Col>
       </Row>
-
+     
       <Row>
         <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
           Do you love food trucks?
         </Col>
       </Row>
 
-      <Row className={'m-4'}>
-        <Col sm={12} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
-        {device === 'Android' ? 
+      <Row className={'m-4'} >
+        <Col sm={12} md={5} style={{backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15, borderColor: 'white', borderWidth: '2px', borderStyle: 'solid'}}>
           <a href='https://play.google.com/store/apps/details?id=com.staandz' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><FcAndroidOs size={100} /></a>
-          :
-          <a href='https://apps.apple.com/us/app/staandz/id1595469039' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><AiOutlineApple size={100} /></a>
-          }
+        </Col>
+        <Col sm={0} md={2}></Col>
+        <Col sm={12} md={5} className={'mt-4 mt-md-0'} style={{textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
+          <a href='https://apps.apple.com/us/app/staandz/id1595469039' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', paddingBottom: '15px', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><AiOutlineApple size={100} /></a>
         </Col>
       </Row>
 
@@ -91,13 +91,13 @@ function App() {
         </Col>
       </Row>
 
-      <Row className={'m-4'} style={device === 'Android' ? {backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15} : {textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
-        <Col sm={12}>
-        {device === 'Android' ? 
-          <a href='https://play.google.com/store/apps/details?id=com.staandzowner' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.35em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get StaandzOwner<br /><FcAndroidOs size={100} /></a>
-          :
-          <a href='https://apps.apple.com/us/app/staandz-owner/id1613829801' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.35em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get StaandzOwner<br /><AiOutlineApple size={100} /></a>
-        }
+      <Row className={'m-4'} >
+        <Col sm={12} md={5} style={{backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15, borderColor: 'white', borderWidth: '2px', borderStyle: 'solid'}}>
+          <a href='https://play.google.com/store/apps/details?id=com.staandzowner' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz Owner<br /><FcAndroidOs size={100} /></a>
+        </Col>
+        <Col sm={0} md={2}></Col>
+        <Col sm={12} md={5} className={'mt-4 mt-md-0'} style={{textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
+          <a href='https://apps.apple.com/us/app/staandz-owner/id1613829801' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', paddingBottom: '15px', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz Owner<br /><AiOutlineApple size={100} /></a>
         </Col>
       </Row>
       
