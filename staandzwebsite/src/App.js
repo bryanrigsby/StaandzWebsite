@@ -48,56 +48,89 @@ function App() {
   return (
       <Container className={'pb-5'} fluid style={{backgroundColor: '#89CFF0'}}>
       <Row>
-        <Col className={'text-center mt-3'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
-          STAANDZ is here!!
+        <Col className={'text-center pt-2 pb-2'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 2px 4px #282828', borderBottom: '2px solid darkgreen'}}>
+          STAANDZ
         </Col>
       </Row>
 
-      <Row className={'mt-5'}>
-        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
-          Do you love fruit stands?
+      <Row className={'mt-3'}>
+        <Col className={'text-center px-5'} style={{fontWeight: 'bold', fontSize: '1.25em', color: 'aliceblue', textShadow: '0px 2px 4px #282828'}}>
+          Love mobile businesses like 
+        </Col>
+      </Row>
+
+      <Row className={'mt-3'}>
+        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
+        <span style={{color: 'darkgreen', textShadow: 'none', fontWeight: 'bolder'}}>FRUIT STANDS</span>
+        </Col>
+      </Row>
+
+      <Row className={'mt-3'}>
+        <Col className={'text-center px-5'} style={{fontWeight: 'bold', fontSize: '1.25em', color: 'aliceblue', textShadow: '0px 2px 4px #282828'}}>
+          and
+        </Col>
+      </Row>
+
+      <Row className={'mt-3'}>
+        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
+        <span style={{color: 'darkgreen', textShadow: 'none', fontWeight: 'bolder'}}>FOOD TRUCKS</span>
+        </Col>
+      </Row>
+      
+      <Row className={'mt-3'}>
+        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '1.25em', color: 'aliceblue', textShadow: '0px 2px 4px #282828'}}>
+        but have trouble finding them?
         </Col>
       </Row>
 
       <Row className={'m-4'} >
         <Col sm={12} md={5} style={{backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15, borderColor: 'white', borderWidth: '2px', borderStyle: 'solid'}}>
-          <a href='https://play.google.com/store/apps/details?id=com.staandz' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><FcAndroidOs size={100} /></a>
+          <a href='https://play.google.com/store/apps/details?id=com.staandz' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 2px 4px #282828'}}>Get Staandz<br /><FcAndroidOs size={100} /></a>
         </Col>
         <Col sm={0} md={2}></Col>
         <Col sm={12} md={5} className={'mt-4 mt-md-0'} style={{textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
-          <a href='https://apps.apple.com/us/app/staandz/id1595469039' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', paddingBottom: '15px', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><AiOutlineApple size={100} /></a>
+          <a href='https://apps.apple.com/us/app/staandz/id1595469039' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', paddingBottom: '15px', color:'aliceblue', textShadow: '0px 2px 4px #282828'}}>Get Staandz<br /><AiOutlineApple size={100} /></a>
         </Col>
       </Row>
      
-      <Row>
-        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
-          Do you love food trucks?
-        </Col>
-      </Row>
-
-      <Row className={'m-4'} >
-        <Col sm={12} md={5} style={{backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15, borderColor: 'white', borderWidth: '2px', borderStyle: 'solid'}}>
-          <a href='https://play.google.com/store/apps/details?id=com.staandz' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><FcAndroidOs size={100} /></a>
-        </Col>
-        <Col sm={0} md={2}></Col>
-        <Col sm={12} md={5} className={'mt-4 mt-md-0'} style={{textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
-          <a href='https://apps.apple.com/us/app/staandz/id1595469039' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', paddingBottom: '15px', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz<br /><AiOutlineApple size={100} /></a>
-        </Col>
-      </Row>
 
       <Row>
-        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 4px 4px #282828'}}>
+        <Col className={'text-center pt-1 pb-2'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 2px 4px #282828', borderTop: '2px solid darkgreen', borderBottom: '2px solid darkgreen'}}>
           Own a stand?
         </Col>
       </Row>
 
+      <Row className={'mt-3'}>
+        <Col className={'text-center px-5'} style={{fontWeight: 'bold', fontSize: '1.25em', color: 'aliceblue', textShadow: '0px 2px 4px #282828'}}>
+          Put your business on the map
+        </Col>
+      </Row>
+
+      <Row className={'mt-3'}>
+        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
+        <span style={{color: 'darkgreen', textShadow: 'none', fontWeight: 'bolder'}}>LITERALLY!</span>
+        </Col>
+      </Row>
+
+      <Row className={'mt-3'}>
+        <Col className={'text-center px-5'} style={{fontWeight: 'bold', fontSize: '1.25em', color: 'aliceblue', textShadow: '0px 2px 4px #282828'}}>
+          Staandz customers will see your location in real time and can view your upcoming events and products with just a tap
+        </Col>
+      </Row>
+
       <Row className={'m-4'} >
         <Col sm={12} md={5} style={{backgroundColor: '#89CFF0', textAlign: 'center', borderRadius: 15, borderColor: 'white', borderWidth: '2px', borderStyle: 'solid'}}>
-          <a href='https://play.google.com/store/apps/details?id=com.staandzowner' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz Owner<br /><FcAndroidOs size={100} /></a>
+          <a href='https://play.google.com/store/apps/details?id=com.staandzowner' target={'_blank'} rel={"noreferrer"} className={'mb-4 btn'} style={{height: '30%', width: '80%', backgroundColor: '#89CFF0', fontWeight: 'bold', border: 'none', fontSize: '1.5em', color:'aliceblue', textShadow: '0px 2px 4px #282828'}}>Get Staandz Owner<br /><FcAndroidOs size={100} /></a>
         </Col>
         <Col sm={0} md={2}></Col>
         <Col sm={12} md={5} className={'mt-4 mt-md-0'} style={{textAlign: 'center', backgroundColor: 'darkgreen', borderRadius: 15}}>
-          <a href='https://apps.apple.com/us/app/staandz-owner/id1613829801' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', paddingBottom: '15px', color:'aliceblue', textShadow: '0px 4px 4px #282828'}}>Get Staandz Owner<br /><AiOutlineApple size={100} /></a>
+          <a href='https://apps.apple.com/us/app/staandz-owner/id1613829801' target={'_blank'} rel={"noreferrer"} className={'mb-1 btn'} style={{height: '30%', width: '80%', backgroundColor: 'darkgreen', fontWeight: 'bold', border: 'none', fontSize: '1.5em', paddingBottom: '15px', color:'aliceblue', textShadow: '0px 2px 4px #282828'}}>Get Staandz Owner<br /><AiOutlineApple size={100} /></a>
+        </Col>
+      </Row>
+
+      <Row className={'mt-5'}>
+        <Col className={'text-center px-5'} style={{fontWeight: 'bold', fontSize: '1em', color: 'aliceblue'}}>
+          &copy;2022 Hangar2Apps LLC
         </Col>
       </Row>
       
