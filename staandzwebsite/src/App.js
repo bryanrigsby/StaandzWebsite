@@ -50,7 +50,6 @@ function App() {
       <Container className={'pb-5'} fluid style={{backgroundColor: '#89CFF0'}}>
       <Row>
         <Col className={'text-center pt-2 pb-2'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 2px 4px #282828', borderBottom: '2px solid darkgreen'}}>
-          <Image src='../public/images/watermelon_icon.png' rounded />
           STAANDZ
         </Col>
       </Row>
