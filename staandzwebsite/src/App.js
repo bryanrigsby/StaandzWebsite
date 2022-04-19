@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react'
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image'
 import { FcAndroidOs } from 'react-icons/fc';
 import { AiOutlineApple } from 'react-icons/ai';
 
@@ -49,6 +50,7 @@ function App() {
       <Container className={'pb-5'} fluid style={{backgroundColor: '#89CFF0'}}>
       <Row>
         <Col className={'text-center pt-2 pb-2'} style={{fontWeight: 'bold', fontSize: '2em', color: 'aliceblue', textShadow: '0px 2px 4px #282828', borderBottom: '2px solid darkgreen'}}>
+          <Image src='../public/images/watermelon_icon.png' rounded />
           STAANDZ
         </Col>
       </Row>
@@ -60,7 +62,7 @@ function App() {
       </Row>
 
       <Row className={'mt-3'}>
-        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
+        <Col className={'text-center'} style={{fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
         <span style={{color: 'darkgreen', textShadow: 'none', fontWeight: 'bolder'}}>FRUIT STANDS</span>
         </Col>
       </Row>
@@ -72,7 +74,7 @@ function App() {
       </Row>
 
       <Row className={'mt-3'}>
-        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
+        <Col className={'text-center'} style={{fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
         <span style={{color: 'darkgreen', textShadow: 'none', fontWeight: 'bolder'}}>FOOD TRUCKS</span>
         </Col>
       </Row>
@@ -107,7 +109,7 @@ function App() {
       </Row>
 
       <Row className={'mt-3'}>
-        <Col className={'text-center'} style={{fontWeight: 'bold', fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
+        <Col className={'text-center'} style={{fontSize: '1.5em', color: 'darkgreen', fontWeight: 'bold'}}>
         <span style={{color: 'darkgreen', textShadow: 'none', fontWeight: 'bolder'}}>LITERALLY!</span>
         </Col>
       </Row>
