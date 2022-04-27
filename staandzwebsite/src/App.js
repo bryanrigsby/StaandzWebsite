@@ -203,22 +203,22 @@ function App() {
           <Image width={'150px'} src={'images/veteranowned.png'} />
         </Col>
         <Col className={'text-center px-5 mb-3'}>
-          <a href={"https://www.krmg.com/on-air/"} target={"_blank"}>
+          <a href={"https://www.krmg.com/on-air/"} target={"_blank"} rel="noreferrer">
           <Image width={'240px'} src={'images/krmg.png'} />
           </a>
         </Col>
         <Col className={'text-center px-5 mb-3'}>
-          <a href={"https://spotlight918.com/"} target={"_blank"}>
+          <a href={"https://spotlight918.com/"} target={"_blank"} rel="noreferrer">
           <Image width={'220px'} src={'images/spotlight918.png'} />
           </a>
         </Col>
         <Col className={'text-center px-5 mb-3'}>
-          <a href={"https://www.okiefoodtrucks.com/"} target={"_blank"}>
+          <a href={"https://www.okiefoodtrucks.com/"} target={"_blank"} rel="noreferrer">
           <Image width={'180px'} src={'images/okiefoodtrucks.png'} />
           </a>
         </Col>
         <Col className={'text-center px-5'} style={{fontWeight: 'bold', fontSize: '1.25em'}}>
-          <a style={{textDecoration: 'none', color: 'aliceblue'}} href={"https://www.hangar2apps.com/"} target={"_blank"}>
+          <a style={{textDecoration: 'none', color: 'aliceblue'}} href={"https://www.hangar2apps.com/"} target={"_blank"} rel="noreferrer">
           &copy;2022 Hangar2Apps LLC
           </a>
         </Col>
