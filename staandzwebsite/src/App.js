@@ -97,16 +97,22 @@ function App() {
           <Image  style={{border: '2px solid white'}} width={'300px'} src="images/homescreen.png"/>
         </Col>
         <Col sm={4}>
-          <Image  style={{border: '2px solid white'}} width={'300px'} src="images/map.png"/>
+          <Image  style={{border: '2px solid white'}} width={'300px'} src="images/allstands.png"/>
         </Col>
         <Col sm={4}>
-          <Image  style={{border: '2px solid white'}} width={'300px'} src="images/owner.png"/>
+          <Image  style={{border: '2px solid white'}} width={'300px'} src="images/map.png"/>
         </Col>
       </Row>
 
       <Row>
         <Col className='text-center mb-4 mt-4 d-block d-md-none'>
         <Image  style={{border: '2px solid white'}} width={'350px'} src="images/homescreen.png"/>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col className='text-center mb-4 mt-4 d-block d-md-none'>
+        <Image  style={{border: '2px solid white'}} width={'350px'} src="images/allstands.png"/>
         </Col>
       </Row>
 
@@ -153,6 +159,30 @@ function App() {
       <Row className={'mt-3 mb-4 d-block d-md-none'}>
         <Col className={'text-center px-5'} style={{fontWeight: 'bold', fontSize: '1.25em', color: 'aliceblue', textShadow: '0px 2px 4px #282828'}}>
           Staandz customers will see your location in real time and can view your upcoming events and products with just a tap!
+        </Col>
+      </Row>
+
+      <Row className={'d-none d-md-flex text-center mt-5'}>
+        <Col sm={4}>
+          <Image  style={{border: '2px solid white'}} width={'300px'} src="images/owner_login.PNG"/>
+        </Col>
+        <Col sm={4}>
+          <Image  style={{border: '2px solid white'}} width={'300px'} src="images/stand.PNG"/>
+        </Col>
+        <Col sm={4}>
+          <Image  style={{border: '2px solid white'}} width={'300px'} src="images/status.PNG"/>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col className='text-center mb-4 d-block d-md-none'>
+        <Image  style={{border: '2px solid white'}} width={'350px'} src="images/owner_login.PNG"/>
+        </Col>
+      </Row>
+
+      <Row>
+        <Col className='text-center mb-4 d-block d-md-none'>
+        <Image  style={{border: '2px solid white'}} width={'350px'} src="images/stand.PNG"/>
         </Col>
       </Row>
 
